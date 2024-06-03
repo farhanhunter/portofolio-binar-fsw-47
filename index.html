@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <header>
+        <h1>Welcome to My Personal Portfolio</h1>
+        <div class="profile-pic">
+          <img src="img/profil-pic.jpg" alt="Profile Picture" />
+        </div>
+      </header>
+
+      <section id="home">
+        <h2>Introduction</h2>
+        <p>
+          Hello, I'm Farhan Adi Saputra, I'm a fresh graduate from Computer
+          Science at Universitas AMIKOM Yogyakarta. This portfolio showcases my
+          academic projects, skills, and interests.
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am passionate about Software Engineering. I loved this world when I
+          started with the words "Hello World". I know this is difficult, but I
+          started learning the fundamentals of HTML & CSS and JavaScript as a
+          full stack web developer.
+        </p>
+        <div class="skills-container">
+          <div class="skill">HTML & CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">PHP</div>
+          <div class="skill">Laravel</div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <img src="path/to/project1.jpg" alt="Project 1" />
+          <p>
+            Description of Project 1. This project involves creating a
+            responsive website using HTML, CSS, and JavaScript.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <img src="path/to/project2.jpg" alt="Project 2" />
+          <p>
+            Description of Project 2. This project is a web application
+            developed using React and Node.js.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <img src="path/to/project3.jpg" alt="Project 3" />
+          <p>
+            Description of Project 3. This project focuses on backend
+            development using Python and Django.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Farhan Adi Saputra. All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
